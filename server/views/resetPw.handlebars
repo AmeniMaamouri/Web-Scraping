@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email</title>
+          <style>
+        .title {
+            background-color: #0088CC;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            padding: 20px;
+            font-weight: bold;
+        }
+      
+        .footer {
+             background-color: rgb(243, 216, 66);
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            padding: 12px;
+            font-weight: bold;
+        }
+      .contentTxt {
+          font-size: 16px;
+          text-align: center;
+          font-weight: bold;
+          color: red;
+      }
+      .link{
+           text-align: center !important;
+           margin-top: 30px !important;
+             margin-bottom: 30px !important;
+      }
+      .link a{
+          font-size: 16px;
+         
+          font-weight: bold;
+           color: white;
+           text-decoration: none;
+           border-radius: 10px;
+               background-color: #218838;
+               padding: 8px 20px;
+      }
+    </style>
+    </head>
+  
+    <body>
+        <p class="title">Welcome, {{firstName}} {{lastName}}</p>
+        
+            <p class="contentTxt">Please, click in the link bellow to reset your password:</p>
+            <div class="link">
+                <a class="link" href="http://localhost:3000/reset/{{token}}">Click here</a>
+            </div>
+           
+       
+       
+        <p class="footer">Created by Ameni Maamouri</p>
+    </body>
+</html>

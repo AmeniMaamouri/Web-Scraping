@@ -1,0 +1,245 @@
+.sectionn {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #EDE469, #F9DC48);
+}
+
+.txtleft {
+    padding-top: 19%;
+  
+}
+.txtleft p:nth-child(2){
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #413F3F;
+}
+.txtleft p:nth-child(3){
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+   color: rgba(65,63,63, 0.9);
+   padding-bottom: 4%;
+}
+.boyuser {
+    
+    padding-bottom: 4%;
+   max-width: 100% !important;
+  
+}
+.btnsignup {
+    padding-bottom: 4%;
+}
+
+.welcometxt {
+   
+    font-family: 'Averta', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #413F3F;
+   
+}
+
+.logintxt{
+    font-family: 'Averta', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0%;
+    color: rgba(65,63,63, 0.9);
+   
+}
+
+.txtrightside {
+    line-height: 100%;
+    margin-top: -20px !important;
+}
+
+label {
+    font-family: 'Averta', sans-serif;
+    font-weight: 700;
+    font-size : 15px !important;
+    color : #413F3F;
+}
+.form-control {
+    text-decoration: none;
+    background-color: #F5F8F9 !important;
+  
+
+}
+
+
+.btn2 {
+    border: none;
+    outline: none !important;
+    width: 120px;
+    height: 43px;
+    border-radius: 27px;
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-top: 3%;
+    background-color: #0062F2;
+    
+  
+}
+
+
+.textloginexist {
+
+    margin-top: 30px;
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #413F3F;
+}
+a {
+    color : #0062F2 !important;
+}
+
+/* Animation */
+
+.btncancel:hover, .btn2:hover{
+    transform: scale(1.01);
+}
+
+.btn1:hover {
+    background: #FF2727;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    
+    background: #116CEF;
+}
+
+@media (max-width: 991px) and (min-width: 1px){
+
+    .sectionn {
+        
+        background-image: linear-gradient(to bottom, #FFF, #FFF);
+    }
+
+}
+
+@media (max-width: 1407px) and (min-width: 1px){
+
+    .txtleft {
+        padding-top: 25%;
+    }
+}
+
+
+
+    @media (max-width: 1210px) and (min-width: 1px){
+
+        .btn1, .btn2 {
+            margin-top: 5%;
+        }
+    }
+
+    @media (max-width: 991px) and (min-width: 1px){
+
+        .textloginexist {
+
+            padding-top: 10%;
+        }
+    }
+
+    @media (max-width: 767px) and (min-width: 339px){
+
+        .btn1, .btn2 {
+           
+            width: 150px;
+            height: 43px;
+        
+        }
+
+        .btn-sign {
+            text-align: center;
+        }
+
+    }
+
+    @media (max-width: 340px) and (min-width: 1px){
+
+        .btn1, .btn2 {
+           
+            width: 160px;
+            height: 43px;
+            
+        }
+
+        .btn-sign {
+            text-align: center;
+        }
+
+    }
+
+    @media (max-width: 1011px) and (min-width: 992px){
+
+       
+            
+            .btn1, .btn2 {
+           
+                width: 140px;
+                height: 43px;
+                
+            }
+    
+        
+    
+    }
+
+    @media (max-width: 353px) and (min-width: 1px){
+
+       
+            
+        .btn1 {
+            padding: 9px 44px;
+        }
+    
+
+}
+.errorMsg {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-top: -30px !important;
+}
+.successMsg {
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    margin-top: -30px !important;
+}
+
+.alert-success {
+    margin-top: -53px;
+    margin-bottom: 40px !important;
+
+}
+.alert-heading {
+    font-weight: bold;
+   
+}
+.alert-success p {
+    font-size: 15px;
+}
+.passwordImg {
+    max-width: 40%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.resetpwpop {
+    margin-top: 1px;
+    margin-bottom: 30px !important;
+}
+.errorMessage {
+    color: #E15461;
+    font-weight: bold;
+}
+form {
+    margin-top: -30px;
+}

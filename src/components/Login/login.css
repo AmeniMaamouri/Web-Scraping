@@ -1,0 +1,218 @@
+.sectionnn {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0F7BFF;
+}
+.txtright {
+    padding-top: 40%;
+  
+}
+.RegisterRow{
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 39px;
+    color: white;
+}
+.SignUpRow{
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 29px;
+   color: rgba(255,255,255, 0.9);
+   padding-bottom: 4%;
+}
+.btnlogin button {
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to bottom, #EDE469, #F9DC48);
+    width: 120px;
+    height: 45px;
+    border-radius: 27px;
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color : black;
+}
+
+.signupbtn{
+
+    background-image: linear-gradient(to bottom, #EDE469, #F9DC48);
+    border-radius: 27px;
+    font-family: 'Averta', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 35px;
+    color : black !important;
+}
+
+.boyuser {
+    position: relative;
+   max-width: 100% !important;
+  
+}
+.welcometxt {
+   
+    font-family: 'Averta', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #413F3F;
+}
+
+.logintxt{
+    font-family: 'Averta', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: -15px;
+    margin-bottom: 20px !important;
+    color: rgba(65,63,63, 0.9);
+   
+}
+.txtrightside {
+    line-height: 100%;
+}
+
+label {
+    font-family: 'Averta', sans-serif;
+    font-weight: 700;
+    font-size : 20px !important;
+    color : #413F3F;
+}
+.pwtxt {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Averta', sans-serif;
+    font-weight: 700;
+
+}
+a {
+    color : #413F3F;
+    
+}
+.btnlogin {
+    text-align: right;
+    margin-top: 3%;
+   
+}
+
+
+.form-control {
+    text-decoration: none;
+    background-color: #F5F8F9 !important;
+  
+
+}
+
+/* Animation */
+
+.signupbtn:hover , .btnlogin button:hover {
+    transform: scale(1.01);
+    background: #efed40;
+    color : black;
+    text-decoration: none;
+}
+
+.btnsignup:hover {
+    transform: scale(1.01);
+}
+
+@media (max-width: 1509px) and (min-width: 1207px){
+
+    .txtright {
+        padding-top: 50%;
+      
+    }
+
+}
+
+@media (max-width: 1206px) and (min-width: 1px){
+
+    .txtright {
+        padding-top: 60%;
+    
+    }
+
+    .txtright p:nth-child(1){
+       
+        font-size: 29px;
+        
+    }
+    .txtright p:nth-child(2){
+      
+        font-size: 20px;
+    
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 1px){
+
+    .btnlogin {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .btnlogin button {
+        
+        width: 200px;
+      
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 1px){
+
+    .sectionn {
+        
+        background-color: #FFFF;
+    }
+
+}
+.errorMsg {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-top: -20px !important;
+}
+.successMsg {
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    margin-top: -20px !important;
+}
+.logooImg {
+    width: 250px !important;
+    margin-top: -70px;
+    padding-bottom: 40px;
+}
+.btnExport {
+    background: none ;
+    outline: none !important;
+    border: none !important;
+  background-color: green;
+  margin-top: -10px;
+  color: white
+}
+.searchImg {
+    max-width: 30%;
+    margin-top: -150px;
+    margin-bottom: 40px;
+}
+.boySearch {
+    max-width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.forgotPw {
+    font-size: 16px;
+    padding-top: 30px;
+    
+}
+
+.forgotPw a {
+    color: black !important;
+ 
+}
+.forgotPw a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+  
+}
